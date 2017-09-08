@@ -1,0 +1,19 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: Jerred Shepherd (RiotShielder)
+website: http://shepherdjerred.com/
+
+soft-depend: [Vault]
+
+main: com.shepherdjerred.stspawn.Main
+
+commands:
+    stspawn:
+        description: Description
+        aliases: [stsp]
+
+permissions:
+    stSpawn.exempt:
+        description: This permission will prevent you from being teleported on join
+        default: false
